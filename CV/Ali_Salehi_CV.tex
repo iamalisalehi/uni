@@ -1,0 +1,281 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+    \textbf{\Huge \scshape Ali Salehi} \\ \vspace{1pt}
+    \small +98-913-785-6210 $|$ \href{mailto:alisalehi076@gmail.com}{\underline{alisalehi076@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/ali-salehi-29b721204/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/iamalisalehi}{\underline{GitHub}} $|$ 
+    \href{https://orcid.org/0000-0002-5505-6269
+    }{\underline{ORCID}}
+\end{center}
+
+
+%-----------EDUCATION-----------%
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shahid Beheshti University}{September 2020 -- Present}
+      {Masters of Science in Physics, Cosmology and Gravitation}{}
+    \resumeSubheading
+      {Isfahan University of Technology}{September 2016 -- August 2020}
+      {Bachelor of Science in Physics}{Cumulative GPA: 18.27/20}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------%
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Chess coach and tech support}{April 2020 -- Present}
+      {Ebrahim Naami's chess club}{Tajrish sq., Tehran}
+      
+      \resumeItemListStart
+        \resumeItem{Design and maintenance of \href{https://www.chessnaami.ir/}{chessnaami.ir}}
+        
+        \resumeItem{Organizing weekly online chess tournaments}
+        
+        \resumeItem{Teaching elementary and intermediate level chess}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Teacher's }{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Teacher's assistant of astrophysics course}{February 2020 -- June 2020}
+      {Isfahan University of Technology}{}
+      
+      \resumeItemListStart
+        \resumeItem{Correcting papers and solving problems for the class participants}
+
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {President of Scientific Society of Astronomy}{September 2018 -- August 2019}
+      {Isfahan University of Technology}{}
+      
+      \resumeItemListStart
+        \resumeItem{Organized weekly observations and stargazing events on the roof of the physics department}
+        
+        \resumeItem{Organized two observation events in the Varzaneh desert}
+        
+        \resumeItem{Managed a team of eight people for astronomy stalls in physics day annual exhibition}
+        
+        \resumeItem{Managed a stall in annual Harkat exhibition for university's scientific societies}
+        
+        \resumeItem{Managed and organized various other programs including lectures and workshops, etc. in the physics department}
+
+      \resumeItemListEnd
+      
+      
+      \resumeSubheading
+      	{Council member of Scientific Society of Astronomy}{September 2017 -- August 2018}
+      	{Isfahan University of Technology}{}
+      
+    	  \resumeItemListStart
+      
+      		\resumeItem{Operated telescopes on weekly observations and stargazing events on the roof of the physics department}
+  
+			\resumeItem{helped organized four observation events in the Varzaneh desert}
+
+			\resumeItem{Operated a solar telescope in physics day annual exhibition}
+
+			\resumeItem{Took part in annual Harkat exhibition for university's scientific societies}
+
+			\resumeItem{Helped in organizing various other programs including lectures and workshops, etc. in the physics department}
+			
+		  \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------%
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Preparing and testing properties of $(K_{0.5} Na_{0.5})NbO_{3}$ \emph{(KNN)} based lead-free ferroelectric ceramics} \\ \emph{Condensed Matter, Electronics, Python}}{\\ \hfill August 2020 -- February 2021}
+          
+          \resumeItemListStart
+            \resumeItem{Developed a tool to plot hysteresis loops of materials, compare them and calculate several properties using python}
+            
+            \resumeItem{Helped synthesize \emph{KNN} based ceramics with different dopings}
+            
+            \resumeItem{Worked with and helped repairing various laboratory instruments}
+          \resumeItemListEnd
+          
+          
+          
+          
+      \resumeProjectHeading
+          {\textbf{Detecting the inner regions of discs around sources of microlensing with Roman Space Telescope} \\ \emph{Astrophysics, Gravitational Microlensing, Python, C++}}{\\ \hfill August 2019 -- August 2020}
+          
+          \resumeItemListStart
+            \resumeItem{Developed codes to calculate properties of microlensing events using \emph{MulensModel} python library}
+            
+            \resumeItem{Developed codes to optimize model parameters for lensing events using \emph{scipy} and \emph{numpy} python libraries}
+            
+            \resumeItem{Took part in writing a journal paper which was published in \emph{MNRAS}}
+
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PUBLICATIONS-----------%
+\section{Publications}
+\resumeSubHeadingListStart
+
+	\resumeProjectHeading
+	{\textbf{Detecting the inner regions of discs around sources of microlensing with \emph{Roman Space Telescope}}}{\\\qquad S. Sajadian, A. Salehi,\\\qquad Monthly Notices of the Royal Astronomical Society,\\\qquad Volume 498, Issue 1, 11 October 2020, Pages 1298–1307,\\\qquad \href{https://doi.org/10.1093/mnras/staa2377}{doi:10.1093/mnras/staa2377}\\}
+		
+\resumeSubHeadingListEnd
+
+
+\section{Awards}
+\resumeSubHeadingListStart
+
+	\resumeProjectHeading
+	{\textbf{National Olympiad of Physics for college students (2019)}}{13th place\\\\}
+
+\resumeSubHeadingListEnd
+
+
+\section{Knowledge \& Skills}
+\resumeSubHeadingListStart
+	\resumeProjectHeading
+	{\textbf{Languages}}{}
+
+	\resumeItemListStart
+		\resumeItem{\textbf{Farsi} (native)}
+		\resumeItem{\textbf{English} (fluent)}
+		\resumeItem{\textbf{German} (basic)}
+
+	\resumeItemListEnd
+	
+	\resumeProjectHeading
+		{\textbf{Technical}}{}
+	
+		\resumeItemListStart
+		\resumeItem{\textbf{Scientific programming with python}\\\qquad Libraries: numpy, scipy, sympy, pandas, matplotlib, MulensModel, netwokx}
+		\resumeItem{\textbf{Familiar with}\\\qquad C/C++, Cadabra}
+		\resumeItem{\textbf{Other tools}\\\qquad Linux, \LaTeX, Beamer, Wordpress}
+	
+	\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------%
+\end{document}
