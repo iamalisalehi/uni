@@ -6,4 +6,4 @@ I put my class projects here
 * [Variational method in electrodynamics](Variational/)
 
 
-And here you can find my CV: [My CV](My%20CV/Ali_Salehi_CV.pdf)
+And here you can find my CV: [My CV](CV/Ali_Salehi_CV.pdf)
