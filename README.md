@@ -15,4 +15,4 @@ And here you can find my CV: [My CV](CV/Ali_Salehi_CV.pdf)
 
 
 ## Manim clips
-I made a few short [manim](https://github.com/3b1b/manim) clips about special relativity, microlensing and geometrical Congruence. you can find them in [Manim clips](\Manim_clips) folder.
+I made a few short [manim](https://github.com/3b1b/manim) clips about special relativity, microlensing and geometrical congruence. you can find them in [Manim clips](Manim_clips) folder.
